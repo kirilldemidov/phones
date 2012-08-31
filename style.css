@@ -1,0 +1,11 @@
+table { 
+border-collapse:collapse;
+background-color: #fffacd;
+margin-left: 20px;
+margin-top: 20px;
+border: 1px solid #918151;
+}
+body { 
+background-image:url('img/1.gif');
+background-repeat:repeat;
+}
