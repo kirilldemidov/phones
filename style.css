@@ -3,11 +3,13 @@ border-collapse:collapse;
 margin: 20px;
 position: inherit;
 font: 20px arial;
+margin: auto;
 
 }
 body { 
-background-image:url('img/flower.jpg');
+background-image:url('img/fabric_plaid.png');
 background-repeat:repeat;
+
 }
 
 #ts {
@@ -22,7 +24,23 @@ background-repeat:repeat;
     top: 40%;  
 }
 
+td {
+    padding-right: 15px;
+}
 
-.header {
-    align: middle;
+tr {
+    text-align: left;
+}
+
+thead {
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0,0,0,1);
+    cursor: pointer;
+}
+
+#logo {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    
 }
