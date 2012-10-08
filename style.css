@@ -1,11 +1,28 @@
 #numbers { 
 border-collapse:collapse;
-//background-color: #fffacd;
-margin-left: 20px;
-margin-top: 20px;
-//border: 1px solid #918151;
+margin: 20px;
+position: inherit;
+font: 20px arial;
+
 }
 body { 
-background-image:url('img/retina_wood.png');
+background-image:url('img/flower.jpg');
 background-repeat:repeat;
+}
+
+#ts {
+
+    padding: 20px;
+    width: 250px;
+    background: rgba(202,218,186,0.8);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+    left: 37%;
+    top: 40%;  
+}
+
+
+.header {
+    align: middle;
 }
