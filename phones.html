@@ -10,35 +10,38 @@
 </head>
 <body>
     <img id="logo" src="img/logo2.png">    
-<div id="ts">  
-<table id="numbers">
-<thead>	
-<tr>
+    <div id="ts"> 
+ 
+    <h1>Phone book</h1>    
+    
+    <table class="table">
+        <thead>	
+            <tr class="shapka">
 		
 		<th>Name</th>
 		<th id="numb">Number</th>
-</tr>
-</thead>
+            </tr>
+        </thead>
 
-<tbody>
-	<tr>
+        <tbody>
+            <tr>
 		
 		<td>xoxoxoaaaaa</td>
 		<td>777</td>
-	</tr>
-	<tr>
+            </tr>
+            <tr>
 		
 		<td>xoxoxoaa222aaa</td>
 		<td>77337</td>
-	</tr>
-</tbody>
-</table>
-</div>    
+            </tr>
+        </tbody>
+    </table>
+    </div>    
 
 <script type="text/javascript">
 $(document).ready(function() 
     { 
-        $("#numbers").tablesorter(); 
+        $(".table").tablesorter(); 
     } 
 ); 
 </script>
